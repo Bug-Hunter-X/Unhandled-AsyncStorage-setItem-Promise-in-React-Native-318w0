@@ -1,0 +1,3 @@
+# Unhandled AsyncStorage.setItem Promise in React Native
+
+This repository demonstrates a common error in React Native applications involving the improper handling of promises returned by `AsyncStorage.setItem()`.  The incorrect usage may lead to unexpected behavior, as subsequent code might execute before the asynchronous operation completes. The solution showcases the correct approach, utilizing `.then()` to handle the promise and ensure data persistence before proceeding.
